@@ -137,6 +137,11 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+
+# Temporary document files
+~$*.docx
+~$*.pptx
+
 .venv
 env/
 venv/
@@ -205,3 +210,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Agent/Claude Code files if any
+.agent/
+.cagent/
+.claude/
